@@ -73,7 +73,7 @@ export default class Waypoint extends React.Component {
   }
 
   componentWillReceiveProps(nextProps) {
-    ensureChildrenIsSingleDOMElement(nextProps.children.children);
+    // ensureChildrenIsSingleDOMElement(nextProps.children);
   }
 
   componentDidUpdate() {
